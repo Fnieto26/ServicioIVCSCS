@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Servicio-IVCSCS.Sivigila.props" />
+</Project>
