@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kubit\\Desktop\\SERVICIO PAI\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj": {}
+    "C:\\Users\\Kubit\\Desktop\\Gestion Terceros\\sivigila\\ServicioIVCSCS\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kubit\\Desktop\\SERVICIO PAI\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj": {
+    "C:\\Users\\Kubit\\Desktop\\Gestion Terceros\\sivigila\\ServicioIVCSCS\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kubit\\Desktop\\SERVICIO PAI\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj",
+        "projectUniqueName": "C:\\Users\\Kubit\\Desktop\\Gestion Terceros\\sivigila\\ServicioIVCSCS\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj",
         "projectName": "Servicio-IVCSCS.Sivigila",
-        "projectPath": "C:\\Users\\Kubit\\Desktop\\SERVICIO PAI\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj",
+        "projectPath": "C:\\Users\\Kubit\\Desktop\\Gestion Terceros\\sivigila\\ServicioIVCSCS\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila.csproj",
         "packagesPath": "C:\\Users\\Kubit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kubit\\Desktop\\SERVICIO PAI\\Servicio-IVCSCS.Sivigila\\Servicio-IVCSCS.Sivigila\\obj\\",
+        "outputPath": "C:\\Users\\Kubit\\Desktop\\Gestion Terceros\\sivigila\\ServicioIVCSCS\\Servicio-IVCSCS.Sivigila\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kubit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,9 +44,29 @@
               "target": "Package",
               "version": "[1.17.0, )"
             },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Composition": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
