@@ -31,7 +31,7 @@ namespace Servicio_IVCSCS.Sivigila.Services.IVCSCS
 
             clsUsuariosService objUsuario = new clsUsuariosService(consultarSolicitudRequestDTO.pLogin);
 
-            objUsuario.IpUsuario = HttpContext.Current.Request.UserHostAddress;
+            //objUsuario.IpUsuario = HttpContext.Current.Request.UserHostAddress;
 
             //objUsuario.
             throw new NotImplementedException();
