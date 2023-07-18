@@ -20,27 +20,25 @@ public class clsUsuariosService
 
     // "Propiedades"
     public int IdUsuario { get; set; }
-    private string Login;
-    private string Password { get; set; }
-    private int IntentosMaximos;
-    private int IntentosActuales;
-    private int NumeroMaximoClaves;
-    private int ConteoCambioClave;
-    private string Pregunta;
-    private string Email;
-
+    public string Login { get; set; }
+    public string Password { get; set; }
+    public int IntentosActuales { get; set; }
+    public int NumeroMaximoClaves { get; set; }
+    public int ConteoCambioClave { get; set; }
+    public string Pregunta { get; set; }
+    public string Email { get; set; }
     public bool Activo { get; set; }
 
-    private Boolean IsActivo;
-    private string ConexionString;
-    private string Fax;
-    private string Telefono;
-    private string RespuestaSecreta;
-    private int IdEntidad;
-    private int IdSubred;
-    private Boolean VerInactivos;
-    private string IpUsuario { get; set; }
-    private int CambioContrasena;
+    public Boolean IsActivo { get; set; }
+    public string ConexionString { get; set; }
+    public string Fax { get; set; }
+    public string Telefono { get; set; }
+    public string RespuestaSecreta { get; set; }
+    public int IdEntidad { get; set; }
+    private int IdSubred { get; set; }
+    public Boolean VerInactivos { get; set; }
+    public string IpUsuario { get; set; }
+    public int CambioContrasena { get; set; }
 
 
     public clsUsuariosService(int IdUsuario)
@@ -80,7 +78,7 @@ public class clsUsuariosService
                 this.Password = (string)objDataSet.Tables[0].Rows[0]["Contrasena"];
 
                 if (!Convert.IsDBNull(objDataSet.Tables[0].Rows[0]["NumeroMaximoIntentosLogin"]))
-                    this.IntentosMaximos = (int)objDataSet.Tables[0].Rows[0]["NumeroMaximoIntentosLogin"];
+                    this.IntentosActuales = (int)objDataSet.Tables[0].Rows[0]["NumeroMaximoIntentosLogin"];
 
                 if (!Convert.IsDBNull(objDataSet.Tables[0].Rows[0]["IntentosFallidosLogin"]))
                     this.IntentosActuales = (int)objDataSet.Tables[0].Rows[0]["IntentosFallidosLogin"];
